@@ -1,0 +1,9 @@
+.menu_item_list{
+    text-decoration: none;
+    color: white;
+    align-items:center;
+    margin-left: 2rem;
+}
+.menu_item_list:hover{
+    color: red;
+}

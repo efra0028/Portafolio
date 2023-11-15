@@ -1,0 +1,4 @@
+.portada_descripcion{
+    display: flex;
+    justify-content: space-between;
+}

@@ -17,22 +17,52 @@
     <link rel="stylesheet" href="portada/portada-descripcion-titulo.css">
     <link rel="stylesheet" href="portada/portada-descripcion.css">
     <link rel="stylesheet" href="portada/portada-descripcion1.css">
+    <link rel="stylesheet" href="portada/portada-descripcion1-descrip.css">
+    <link rel="stylesheet" href="portada/portada-descripcion1-img.css">
+    <link rel="stylesheet" href="portada/portada-descripcion1-link.css">
+    
+    <link rel="stylesheet" href="contenido/contenido-skills-lenguaje.css">
+    <link rel="stylesheet" href="contenido/contenido-skills.css">
+    <link rel="stylesheet" href="contenido/contenido-titulo-parrafo.css">
+    <link rel="stylesheet" href="contenido/contenido-titulo-sub.css">
+    <link rel="stylesheet" href="contenido/contenido-titulo.css">
+    <link rel="stylesheet" href="contenido/contenido.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_english.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_english_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_english_descripcion.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_español.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_español_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_español_descripcion.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_idioma_subtitulo.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_c++_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_c_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_css_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_html_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_img.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_lenguaje_todo_js_barra.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_sobre.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_sobre_subtitulo.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_sobre_subtitulo_contenido.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_sobre_subtitulo_contenido_descripcion.css">
+    <link rel="stylesheet" href="contenido/contenido_skills_sobre_subtitulo_contenido_img.css">
+  
+   
 
 </head>
 <body>
-   <header class="cabecera">
+   <header class="cabecera" id="inicio">
     <nav class="menu">
         <div class="menu_icon">
             <img class="menu_icon_img" src="img/icon.jpg" alt="">
             <h2 class="menu_icon_nombre">Web Programmer</h2>
         </div>
         <div class="menu_item">
-            <a class="menu_item_list" href="#">inicio</a>
-            <a class="menu_item_list" href="#">Acerca de </a>
+            <a class="menu_item_list" href="#inicio">inicio</a>
+            <a class="menu_item_list" href="#acerca">Acerca de </a>
             <a class="menu_item_list" href="#">Contacto</a>
             <a class="menu_item_list" href="#">Proyectos</a>
-            <a class="menu_item_list" href="https://github.com/efra0028?tab=repositories"><img class="menu_item_img" src="img/github.png" alt=""></a>
-            <a class="menu_item_list" href="#"><img class="menu_item_img" src="img/linkendin.png" alt=""></a>
         </div>
     </nav>
    </header>
@@ -41,30 +71,70 @@
    <section class="portada">
         <div class="portada_descripcion">
             <div class="portada_descripcion1">
-                <h1 class="portada_descripcion1_titulo">Hola, </h1>
-                <h1 class="portada_descripcion1_titulo">Mi Nombre es</h1>
-                <h1 class="portada_descripcion1_titulo">Efrain Churiri Rrodriguez</h1>
-                <h1 class="portada_descripcion1_titulo">Soy Desarrolador</h1>
-                <h1 class="portada_descripcion1_titulo">junior de Front-end</h1>
+                <h1 class="portada_descripcion1_titulo">Front-end   </h1>
+                <h1 class="portada_descripcion1_titulo">Web Programmer</h1>
+                <p class="portada_descripcion1_descrip">hola, mi Nombre es EFRAIN CHURIRI RODRIGUEZ </p>
+                <p class="portada_descripcion1_descrip">un apasionado de la programacion web</p>
+                <a class="portada_descripcion1_link" href="https://github.com/efra0028?tab=repositories"><img class="portada_descripcion1_img" src="img/github.png" alt=""></a>
             </div>
-    
             <img class="portada_descripcion_perfil" src="img/perfil.jpg" alt="">
         </div>
    </section>
+
+
    <section class="contenido">
-        <div class="contenido_titulo">
-            <h2 class="contenido_titulo_ti">Mi pila tecnológica</h2>
-            <p class="contenido_titulo">Tecnologías con las que he estado trabajando recientemente</p>
-        </div>
-        <div>
-            <img src="img/lenguajes/html.png" alt="">
-            <img src="img/lenguajes/css.png" alt="">
-            <img src="img/lenguajes/js.png" alt="">
-            <img src="img/lenguajes/c.png" alt="">
-            <img src="img/lenguajes/c++.png" alt="">
-        </div>
+            <div class="contenido_titulo">
+                <h2 class="contenido_titulo_sub" id="acerca">Mis Habilidades</h2>
+                <p class="contenido_titulo_parrafo">Tecnologías con las que he estado trabajando recientemente</p>
+            </div>
+            
+            <div class="contenido_skills">
+                <div class="contenido_skills_lenguaje">
+                    <div class="contenido_skills_lenguaje_todo">
+                        <img class="contenido_skills_lenguaje_todo_img" src="img/lenguajes/html.png" alt="">
+                        <p class="contenido_skills_lenguaje_todo_html_barra">90%</p>
+                    </div>
+                    <div class="contenido_skills_lenguaje_todo">
+                        <img class="contenido_skills_lenguaje_todo_img" src="img/lenguajes/css.png" alt="">
+                        <p class="contenido_skills_lenguaje_todo_css_barra">70%</p>
+                    </div>
+                    <div class="contenido_skills_lenguaje_todo">
+                        <img class="contenido_skills_lenguaje_todo_img" src="img/lenguajes/c.png" alt="">
+                        <p class="contenido_skills_lenguaje_todo_c_barra">40%</p>
+                    </div>
+                    <div class="contenido_skills_lenguaje_todo">
+                        <img class="contenido_skills_lenguaje_todo_img" src="img/lenguajes/c++.png" alt="">
+                        <p class="contenido_skills_lenguaje_todo_cplus_barra">50%</p>
+                    </div>
+                    <div class="contenido_skills_lenguaje_todo">
+                        <img class="contenido_skills_lenguaje_todo_img" src="img/lenguajes/js.png" alt="">
+                        <p class="contenido_skills_lenguaje_todo_js_barra">40%</p>
+                    </div>
+                </div>
+                    
+                <div class="contenido_skills_idioma">
+                    <h2 class="contenido_skills_idioma_subtitulo">Idiomas</h2>
+                    <div class="contenido_skills_idioma_español">
+                        <p class="contenido_skills_idioma_español_descripcion">Español</p>
+                        <div class="contenido_skills_idioma_español_barra">100%</div>
+                    </div>
+                    <div class="contenido_skills_idioma_english">
+                        <p class="contenido_skills_idioma_english_descripcion">English</p>
+                        <div class="contenido_skills_idioma_english_barra">50%</div>
+                    </div>
+                </div>
+
+
+                <div class="contenido_skills_sobre">
+                    <h2 class="contenido_skills_sobre_subtitulo">Acerca de Mi</h2>
+                    <div class="contenido_skills_sobre_subtitulo_contenido">
+                        <p class="contenido_skills_sobre_subtitulo_contenido_descripcion">aksjbdsakdn</p>
+                    </div>
+                </div>
+            </div>
    </section>
-    
+   
    </menu>
 </body>
+
 </html>
